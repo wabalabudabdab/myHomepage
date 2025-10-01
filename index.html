@@ -328,7 +328,7 @@
                 scene = new THREE.Scene();
 
                 new RGBELoader()
-                    .setPath("./")
+                    .setPath("/")
                     .load("snowy_forest_4k.hdr", function (texture) {
                         texture.mapping =
                             THREE.EquirectangularReflectionMapping;
@@ -338,7 +338,7 @@
 
                         render();
 
-                        const loader = new GLTFLoader().setPath("./");
+                        const loader = new GLTFLoader().setPath("/");
                         loader.load(
                             "Vintage_Robot_3D_Model.glb",
                             function (gltf) {
