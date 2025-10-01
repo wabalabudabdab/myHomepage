@@ -12,14 +12,16 @@ pnpm install
 
 2. Запустите проект:
 ```bash
+pnpm run dev
+```
+
+(проверьте что скрипты есть в package.json) если нет -
+
+```bash
 npx vite
 ```
 
 Или добавьте скрипт в package.json и используйте:
-```bash
-npm run dev
-```
-
 3. Откройте браузер и перейдите по адресу: `http://localhost:5173`
 
 ## Структура проекта
